@@ -1,0 +1,153 @@
+@extends('website.layout.master')
+@section('content')
+ <!--Page Header Start-->
+ <section class="page-header">
+    <div class="page-header-bg" style="background-image: url({{asset('web2assets/images/Services.jpg')}})">
+    </div>
+    <div class="container">
+        <div class="page-header__inner">
+            <h2>Our Services</h2>
+            <ul class="thm-breadcrumb list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Services</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Page Header End-->
+
+<!--Services Page Start-->
+<section class="services-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-1.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-creative"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="#">Consumer Product</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="#" class="services-one__btn">Book Now</a>
+                            <a href="#" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-2.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-business"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="banking-advising.html">Banking Advising</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="banking-advising.html" class="services-one__btn">Book Now</a>
+                            <a href="banking-advising.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-3.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-global"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="marketing-rules.html">Marketing Rules</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="marketing-rules.html" class="services-one__btn">Book Now</a>
+                            <a href="marketing-rules.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="400ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-4.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-mobile-analytics"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="business-growth.html">Business Growth</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="business-growth.html" class="services-one__btn">Book Now</a>
+                            <a href="business-growth.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="500ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-5.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-analysis"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="audit-marketing.html">Audit Marketing</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="audit-marketing.html" class="services-one__btn">Book Now</a>
+                            <a href="audit-marketing.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="600ms">
+                <!--Services One Single-->
+                <div class="services-one__single">
+                    <div class="services-one__img-box">
+                        <div class="services-one__img">
+                            <img src="{{asset('./web2assets/images/services/services-page-img-6.jpg')}}" alt="">
+                        </div>
+                        <div class="services-one__icon">
+                            <span class="icon-creative-1"></span>
+                        </div>
+                    </div>
+                    <div class="services-one__content">
+                        <h3 class="services-one__title"><a href="financial-advice.html">Financial Advice</a></h3>
+                        <p class="services-one__text">Lorem ipsum dolor sit donec amet tristique ante vel sem dictum is rhoncus elit sed.</p>
+                        <div class="services-one__bottom">
+                            <a href="financial-advice.html" class="services-one__btn">Book Now</a>
+                            <a href="financial-advice.html" class="services-one__arrow"><span class="icon-right-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Services Page End-->
+@endsection

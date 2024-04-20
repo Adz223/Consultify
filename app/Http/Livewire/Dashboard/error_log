@@ -1,0 +1,9 @@
+[31-May-2023 14:17:12 UTC] PHP Parse error:  syntax error, unexpected token "protected", expecting "," or ";" in /tmp/temp-gtpjmqbvk-BookingNew.php on line 20
+[22-Jun-2023 13:17:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-wbwazxdfq-Service.php on line 24
+[22-Jun-2023 13:20:15 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-siqjpoaaq-Service.php on line 49
+[22-Jun-2023 13:20:20 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-jtloystk-Service.php on line 49
+[22-Jun-2023 13:22:45 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-dwmli-Service.php on line 49
+[22-Jun-2023 13:23:28 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "reason", expecting "]" in /tmp/temp-usrhzdaa-Service.php on line 52
+[22-Jun-2023 13:31:14 UTC] PHP Parse error:  syntax error, unexpected variable "$this" in /tmp/temp-hgflrmj-Service.php on line 33
+[22-Jun-2023 13:48:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-kzpxwrl-Service.php on line 31
+[22-Jun-2023 13:48:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in /tmp/temp-mhavuvnb-Service.php on line 31
